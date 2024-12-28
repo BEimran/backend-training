@@ -4,15 +4,15 @@ import java.util.Scanner;
 
     public class SimpleCalculator {
         public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+            Scanner d = new Scanner(System.in);
             System.out.println("Enter the first number:");
-            double num1 = scanner.nextDouble();
+            double num1 = d.nextDouble();
 
             System.out.println("Enter the operator (+, -, *, /):");
-            char operator = scanner.next().charAt(0);
+            char operator = d.next().charAt(0);
 
             System.out.println("Enter the second number:");
-            double num2 = scanner.nextDouble();
+            double num2 = d.nextDouble();
             double result;
             switch (operator) {
                 case '+':
