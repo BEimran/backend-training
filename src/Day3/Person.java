@@ -12,7 +12,7 @@ class Person {
     public void displayPersonDetails() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
-    }
+    }   
 }
 
 class Student extends Person {
