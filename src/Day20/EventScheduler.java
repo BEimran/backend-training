@@ -44,8 +44,6 @@ public class EventScheduler {
 
         System.out.println("All events:");
         events.forEach(event -> System.out.println(event));
-
-        // Filter events based on a specific date (2025-01-28)
         System.out.println("\nEvents on 2025-01-28:");
         LocalDate targetDate = LocalDate.of(2025, 1, 28);
         events.stream()
